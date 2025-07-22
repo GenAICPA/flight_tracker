@@ -31,7 +31,7 @@ Repository = "https://github.com/GenAICPA/flight_tracker"
 Issues = "https://github.com/GenAICPA/flight_tracker/issues"
 
 [project.scripts]
-flight-tracker-mcp = "flight_tracker_mcp:main"
+flight-tracker-mcp = "flight_tracker_mcp:cli_main"
 
 [build-system]
 requires = ["hatchling"]

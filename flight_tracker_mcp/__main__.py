@@ -3,8 +3,7 @@
 Command-line entry point for Flight Tracker MCP Server
 """
 
-from . import main
-import asyncio
+from . import cli_main
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    cli_main()
