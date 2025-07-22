@@ -167,3 +167,12 @@ flight_tracker_mcp_*.py
 
 # old server file
 MinimalServer_old.py
+
+# Publishing
+.env.local
+.env.production
+config.json
+credentials.json
+
+# Virtual environments (specific to this project)
+flight_tracker_env/
