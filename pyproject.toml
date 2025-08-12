@@ -19,7 +19,7 @@ classifiers = [
 keywords = ["mcp", "flight", "tracking", "aviation", "opensky"]
 dependencies = [
     "mcp[cli]>=1.11.0",
-    "opensky-api>=1.3.0",
+    "opensky-api @ git+https://github.com/openskynetwork/opensky-api.git#subdirectory=python",
     "aiohttp>=3.8.0",
     "requests>=2.28.0",
 ]
